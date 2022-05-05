@@ -37,6 +37,6 @@ based [this instruction](https://mahsa-hanifi.medium.com/running-android-inside-
     </tr>
     <tr><td>5.3-Install sdkmanager and SDK platform-Tools</td><td></td>
     </tr>
-    <tr><td>5.4-failed connection result 😒 with this error<br><br><blockquote>* daemon not running; starting now at tcp:5037<br>* daemon started successfullycannot connect to 20.227.16.131:5555: No connection could be made because the target machine actively refused it. (10061)</blockquote></td><td><img src="https://user-images.githubusercontent.com/64577273/166897296-6856edd6-18fe-4377-9deb-b82fd5ba995a.png"></td>
+    <tr><td>5.4-failed adb connection result 😒 with this error<br><br><blockquote>* daemon not running; starting now at tcp:5037<br>* daemon started successfullycannot connect to 20.227.16.131:5555: No connection could be made because the target machine actively refused it. (10061)</blockquote></td><td><img src="https://user-images.githubusercontent.com/64577273/166897296-6856edd6-18fe-4377-9deb-b82fd5ba995a.png"></td>
     </tr>
 </table>
