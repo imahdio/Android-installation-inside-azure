@@ -1,6 +1,6 @@
-based [this article](https://mahsa-hanifi.medium.com/running-android-inside-azure-68977c687ff5), I'm going to install android x86 os on an azure virtual machine. there are 2 methods I have tested them out:
+based [this instruction](https://mahsa-hanifi.medium.com/running-android-inside-azure-68977c687ff5), I have installed android x86 os on my azure virtual machine through following steps:
 
-# 1- Azure CLI and PowerShell
+# Azure CLI and PowerShell
 
 <table>
     <tr><th>steps</th><th>details</th><th>related images</th>
@@ -31,7 +31,7 @@ based [this article](https://mahsa-hanifi.medium.com/running-android-inside-azur
     </tr>
     <tr><td>4-set up the Network section</td><td>Add inbound security rule 5555</td><td><img src="https://user-images.githubusercontent.com/64577273/166890947-6a71f2fe-3165-4450-a00f-b51787a900fd.png"></td>
     </tr>
-    <tr><td><a name="bastion"><p style="color:red;">5-Connect to the Android VM using bastion</p></a></td><td><p style="color:red;"><b>connected successfully without any android environment(!!!)</b></p></td><td><img src="https://user-images.githubusercontent.com/64577273/166897575-ab69cc3d-ca0b-4a3c-9142-4e7a78d15817.png"></td>
+    <tr><td><a name="bastion"><p style="color:red;">5-Connect to the Android VM using bastion</p></a></td><td><p style="color:red;"><b>connected successfully without any android environment(!!!)</b> 😩</p></td><td><img src="https://user-images.githubusercontent.com/64577273/166897575-ab69cc3d-ca0b-4a3c-9142-4e7a78d15817.png"></td>
     </tr>
     <tr><td rowspan=4>6-Connect to the Android VM using adb communications</td><td>6.1-Install Latest Version of Java based <a href="https://www.maketecheasier.com/install-android-sdk-in-windows">this article</a></td><td><img src="https://user-images.githubusercontent.com/64577273/166892946-f92fa311-d0be-4acc-b293-ab7d46d65c79.png"></td>
     </tr>
@@ -39,6 +39,6 @@ based [this article](https://mahsa-hanifi.medium.com/running-android-inside-azur
     </tr>
     <tr><td>6.3-Install sdkmanager and SDK platform-Tools</td><td></td>
     </tr>
-    <tr><td>6.4-failed connection result</td><td><img src="https://user-images.githubusercontent.com/64577273/166897296-6856edd6-18fe-4377-9deb-b82fd5ba995a.png"></td>
+    <tr><td>6.4-failed connection result 😒</td><td><img src="https://user-images.githubusercontent.com/64577273/166897296-6856edd6-18fe-4377-9deb-b82fd5ba995a.png"></td>
     </tr>
 </table>
