@@ -33,12 +33,4 @@ based [this instruction](https://mahsa-hanifi.medium.com/running-android-inside-
     </tr>
     <tr><td><a name="bastion"><p style="color:red;">5-Connect to the Android VM using bastion</p></a></td><td><p style="color:red;"><b>connected successfully without any android environment(!!!)</b> 😩</p></td><td><img src="https://user-images.githubusercontent.com/64577273/166897575-ab69cc3d-ca0b-4a3c-9142-4e7a78d15817.png"></td>
     </tr>
-    <tr><td rowspan=4>6-Connect to the Android VM using adb communications</td><td>6.1-Install Latest Version of Java based <a href="https://www.maketecheasier.com/install-android-sdk-in-windows">this article</a></td><td><img src="https://user-images.githubusercontent.com/64577273/166892946-f92fa311-d0be-4acc-b293-ab7d46d65c79.png"></td>
-    </tr>
-    <tr><td>6.2-add path to environment</td><td><img src="https://user-images.githubusercontent.com/64577273/166894557-5b5d761b-65b0-49ff-88f3-2a8809f26181.png"></td>
-    </tr>
-    <tr><td>6.3-Install sdkmanager and SDK platform-Tools</td><td></td>
-    </tr>
-    <tr><td>6.4-failed connection result 😒</td><td><img src="https://user-images.githubusercontent.com/64577273/166897296-6856edd6-18fe-4377-9deb-b82fd5ba995a.png"></td>
-    </tr>
 </table>
